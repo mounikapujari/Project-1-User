@@ -1,0 +1,8 @@
+<source src="a.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+=======
+  <video autoplay muted loop id="backgroundVideo" playsinline style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; object-fit: cover; z-index: -1; pointer-events: none;">
+    <source src="../a.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
